@@ -2065,3 +2065,27 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.brand-item {
+  text-align: center; /* Center the content */
+  padding: 20px;
+}
+
+.brand-logo {
+  width: 400px; /* Fixed width */
+  height: 250px; /* Fixed height */
+  object-fit: contain; /* Keep the aspect ratio and fit within the dimensions */
+  margin: 0 auto; /* Center the image */
+  display: block; /* Ensure proper centering */
+}
+
+.brand-item h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.brand-item p {
+  font-size: 14px;
+  color: #6c757d; /* Gray text for description */
+  margin-top: 5px;
+}
